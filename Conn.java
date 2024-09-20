@@ -6,7 +6,7 @@ public class Conn {
     Statement st;
     public Conn() {
         try {
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/form", "root", "Alstublieft!@#123");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/form", "root", "root");
             st = c.createStatement();
             
         } catch (SQLException e) {
